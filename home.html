@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="yq2uDPSGAGLJqedlW2Nvn3EOesaCIEqjYG61ewRg">
+
+    <title>Home - Ayat Super Shop &amp; Telecom Center Ltd</title>
+
+    <link rel="stylesheet" href="https://electric.svsdu.com/css/vendor.css?v=511">
+
+
+
+    <!-- app css -->
+    <link rel="stylesheet" href="https://electric.svsdu.com/css/app.css?v=511">
+
+    <style type="text/css">
+        /*
+	* Pattern lock css
+	* Pattern direction
+	* http://ignitersworld.com/lab/patternLock.html
+	*/
+
+        .patt-wrap {
+            z-index: 10;
+        }
+
+        .patt-circ.hovered {
+            background-color: #cde2f2;
+            border: none;
+        }
+
+        .patt-circ.hovered .patt-dots {
+            display: none;
+        }
+
+        .patt-circ.dir {
+            background-image: url("https://electric.svsdu.com/img/pattern-directionicon-arrow.png");
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .patt-circ.e {
+            -webkit-transform: rotate(0);
+            transform: rotate(0);
+        }
+
+        .patt-circ.s-e {
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+
+        .patt-circ.s {
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        .patt-circ.s-w {
+            -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+        }
+
+        .patt-circ.w {
+            -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+
+        .patt-circ.n-w {
+            -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+        }
+
+        .patt-circ.n {
+            -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+        }
+
+        .patt-circ.n-e {
+            -webkit-transform: rotate(315deg);
+            transform: rotate(315deg);
+        }
+    </style>
+
+</head>
+
+<body class=" hold-transition skin-purple-light sidebar-mini ">
+    <div class="wrapper thetop">
+        <script type="text/javascript">
+            if (localStorage.getItem("upos_sidebar_collapse") == 'true') {
+                var body = document.getElementsByTagName("body")[0];
+                body.className += " sidebar-collapse";
+            }
+        </script>
+        <!-- Main Header -->
+        <header class="main-header no-print">
+            <a href="https://electric.svsdu.com/home" class="logo">
+      
+      <span class="logo-lg">Ayat Super Shop &amp; Telecom Center Ltd <i class="fa fa-circle text-success" id="online_indicator"></i></span> 
+
+    </a>
+
+            <!-- Header Navbar -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+        &#9776;
+        <span class="sr-only">Toggle navigation</span>
+      </a>
+
+
+
+                <!-- Navbar Right Menu -->
+                <div class="navbar-custom-menu">
+
+
+                    <div class="btn-group">
+                        <button id="header_shortcut_dropdown" type="button" class="btn btn-success dropdown-toggle btn-flat pull-left m-8 btn-sm mt-10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-plus-circle fa-lg"></i>
+          </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://electric.svsdu.com/calendar">
+                  <i class="fas fa-calendar-alt" aria-hidden="true"></i> Calendar              </a></li>
+                            <!-- Help Button -->
+                            <li><a id="start_tour" href="#">
+                  <i class="fas fa-question-circle" aria-hidden="true"></i> Application Tour              </a></li>
+                        </ul>
+                    </div>
+                    <button id="btnCalculator" title="Calculator" type="button" class="btn btn-success btn-flat pull-left m-8 btn-sm mt-10 popover-default hidden-xs" data-toggle="popover" data-trigger="click" data-content='<div id="calculator">
+  <div class="row text-center" id="calc">
+    <div class="calcBG col-md-12 text-center">
+      <div class="row" id="result">
+        <form name="calc">
+          <input type="text" class="screen text-right" name="result" readonly>
+        </form>
+      </div>
+      <div class="row">
+        <button id="allClear" type="button" class="btn btn-danger" onclick="clearScreen()">AC</button>
+        <button id="clear" type="button" class="btn btn-warning" onclick="clearScreen()">CE</button>
+        <button id="%" type="button" class="btn" onclick="calEnterVal(this.id)">%</button>
+        <button id="/" type="button" class="btn" onclick="calEnterVal(this.id)">÷</button>
+      </div>
+      <div class="row">
+        <button id="7" type="button" class="btn" onclick="calEnterVal(this.id)">7</button>
+        <button id="8" type="button" class="btn" onclick="calEnterVal(this.id)">8</button>
+        <button id="9" type="button" class="btn" onclick="calEnterVal(this.id)">9</button>
+        <button id="*" type="button" class="btn" onclick="calEnterVal(this.id)">x</button>
+      </div>
+      <div class="row">
+        <button id="4" type="button" class="btn" onclick="calEnterVal(this.id)">4</button>
+        <button id="5" type="button" class="btn" onclick="calEnterVal(this.id)">5</button>
+        <button id="6" type="button" class="btn" onclick="calEnterVal(this.id)">6</button>
+        <button id="-" type="button" class="btn" onclick="calEnterVal(this.id)">-</button>
+      </div>
+      <div class="row">
+        <button id="1" type="button" class="btn" onclick="calEnterVal(this.id)">1</button>
+        <button id="2" type="button" class="btn" onclick="calEnterVal(this.id)">2</button>
+        <button id="3" type="button" class="btn" onclick="calEnterVal(this.id)">3</button>
+        <button id="+" type="button" class="btn" onclick="calEnterVal(this.id)">+</button>
+      </div>
+      <div class="row">
+        <button id="0" type="button" class="btn" onclick="calEnterVal(this.id)">0</button>
+        <button id="." type="button" class="btn" onclick="calEnterVal(this.id)">.</button>
+        <button id="equals" type="button" class="btn btn-success" onclick="calculate()">=</button>
+        <button id="blank" type="button" class="btn">&nbsp;</button>
+      </div>
+    </div>
+  </div>
+</div>' data-html="true" data-placement="bottom">
+                    <strong><i class="fa fa-calculator fa-lg" aria-hidden="true"></i></strong>
+                    </button>
+
+
+                    <a href="https://electric.svsdu.com/pos/create" title="POS" data-toggle="tooltip" data-placement="bottom" class="btn btn-flat pull-left m-8 btn-sm mt-10 btn-success">
+              <strong><i class="fa fa-th-large"></i> &nbsp; POS</strong>
+            </a>
+
+
+                    <button type="button" id="view_todays_profit" title="Today&#039;s profit" data-toggle="tooltip" data-placement="bottom" class="btn btn-success btn-flat pull-left m-8 btn-sm mt-10">
+            <strong><i class="fas fa-money-bill-alt fa-lg"></i></strong>
+          </button>
+
+                    <div class="m-8 pull-left mt-15 hidden-xs" style="color: #fff;"><strong>03/13/2024</strong></div>
+
+                    <ul class="nav navbar-nav">
+                        <!-- Notifications: style can be found in dropdown.less -->
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="dropdown-toggle load_notifications" data-toggle="dropdown" id="show_unread_notifications" data-loaded="false">
+    <i class="fas fa-bell"></i>
+    <span class="label label-warning notifications_count"></span>
+  </a>
+                            <ul class="dropdown-menu">
+                                <!-- <li class="header">You have 10 unread notifications</li> -->
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+
+                                    <ul class="menu" id="notifications_list">
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <input type="hidden" id="notification_page" value="1">
+                        <!-- User Account Menu -->
+                        <li class="dropdown user user-menu">
+                            <!-- Menu Toggle Button -->
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <!-- The user image in the navbar-->
+                                <img src="https://electric.svsdu.com/uploads/media/1709560860_1403773708_FB_IMG_1688740241272-removebg-preview.png" class="user-image" alt="User Image">
+                                <!-- hidden-xs hides the username on small devices so only the image appears. -->
+                                <span>softriple IT</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- The user image in the menu -->
+                                <li class="user-header">
+                                    <img src="https://electric.svsdu.com/uploads/business_logos/1706445597_download.jpg" alt="Logo">
+                                    <p>
+                                        softriple IT
+                                    </p>
+                                </li>
+                                <!-- Menu Body -->
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        <a href="https://electric.svsdu.com/user/profile" class="btn btn-default btn-flat">Profile</a>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a href="https://electric.svsdu.com/logout" class="btn btn-default btn-flat">Sign Out</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- Control Sidebar Toggle Button -->
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
+
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+
+                <a href="https://electric.svsdu.com/home" class="logo">
+		<span class="logo-lg">Ayat Super Shop &amp; Telecom Center Ltd</span>
+	</a>
+
+                <!-- Sidebar Menu -->
+
+                <ul class="sidebar-menu tree" data-widget="tree">
+                    <li class="active"><a href="https://electric.svsdu.com/home"><i class="fa fas fa-tachometer-alt"></i> <span>Home</span></a></li>
+                    <li class="treeview">
+                        <a href="#">
+					<i class="fa fas fa-users"></i> <span>User Management</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/users"><i class="fa fas fa-user"></i> <span>Users</span></a></li>
+                            <li><a href="https://electric.svsdu.com/roles"><i class="fa fas fa-briefcase"></i> <span>Roles</span></a></li>
+                            <li><a href="https://electric.svsdu.com/sales-commission-agents"><i class="fa fas fa-handshake"></i> <span>Sales Commission Agents</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview" id="tour_step4">
+                        <a href="#">
+					<i class="fa fas fa-address-book"></i> <span>Contacts</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/contacts?type=supplier"><i class="fa fas fa-star"></i> <span>Suppliers</span></a></li>
+                            <li><a href="https://electric.svsdu.com/contacts?type=customer"><i class="fa fas fa-star"></i> <span>Customers</span></a></li>
+                            <li><a href="https://electric.svsdu.com/customer-group"><i class="fa fas fa-users"></i> <span>Customer Groups</span></a></li>
+                            <li><a href="https://electric.svsdu.com/contacts/import"><i class="fa fas fa-download"></i> <span>Import Contacts</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview" id="tour_step5">
+                        <a href="#">
+					<i class="fa fas fa-cubes"></i> <span>Products</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/products"><i class="fa fas fa-list"></i> <span>List Products</span></a></li>
+                            <li><a href="https://electric.svsdu.com/products/create"><i class="fa fas fa-plus-circle"></i> <span>Add Product</span></a></li>
+                            <li><a href="https://electric.svsdu.com/update-product-price"><i class="fa fas fa-circle"></i> <span>Update Price</span></a></li>
+                            <li><a href="https://electric.svsdu.com/labels/show"><i class="fa fas fa-barcode"></i> <span>Print Labels</span></a></li>
+                            <li><a href="https://electric.svsdu.com/variation-templates"><i class="fa fas fa-circle"></i> <span>Variations</span></a></li>
+                            <li><a href="https://electric.svsdu.com/import-products"><i class="fa fas fa-download"></i> <span>Import Products</span></a></li>
+                            <li><a href="https://electric.svsdu.com/import-opening-stock"><i class="fa fas fa-download"></i> <span>Import Opening Stock</span></a></li>
+                            <li><a href="https://electric.svsdu.com/selling-price-group"><i class="fa fas fa-circle"></i> <span>Selling Price Group</span></a></li>
+                            <li><a href="https://electric.svsdu.com/units"><i class="fa fas fa-balance-scale"></i> <span>Units</span></a></li>
+                            <li><a href="https://electric.svsdu.com/taxonomies?type=product"><i class="fa fas fa-tags"></i> <span>Categories</span></a></li>
+                            <li><a href="https://electric.svsdu.com/brands"><i class="fa fas fa-gem"></i> <span>Brands</span></a></li>
+                            <li><a href="https://electric.svsdu.com/warranties"><i class="fa fas fa-shield-alt"></i> <span>Warranties</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview" id="tour_step6">
+                        <a href="#">
+					<i class="fa fas fa-arrow-circle-down"></i> <span>Purchases</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/purchase-requisition"><i class="fa fas fa-list"></i> <span>Purchase Requisition</span></a></li>
+                            <li><a href="https://electric.svsdu.com/purchase-order"><i class="fa fas fa-list"></i> <span>Purchase Order</span></a></li>
+                            <li><a href="https://electric.svsdu.com/purchases"><i class="fa fas fa-list"></i> <span>List Purchases</span></a></li>
+                            <li><a href="https://electric.svsdu.com/purchases/create"><i class="fa fas fa-plus-circle"></i> <span>Add Purchase</span></a></li>
+                            <li><a href="https://electric.svsdu.com/purchase-return"><i class="fa fas fa-undo"></i> <span>List Purchase Return</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview" id="tour_step7">
+                        <a href="#">
+					<i class="fa fas fa-arrow-circle-up"></i> <span>Sell</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/sells"><i class="fa fas fa-list"></i> <span>All sales</span></a></li>
+                            <li><a href="https://electric.svsdu.com/sells/create"><i class="fa fas fa-plus-circle"></i> <span>Add Sale</span></a></li>
+                            <li><a href="https://electric.svsdu.com/pos"><i class="fa fas fa-list"></i> <span>List POS</span></a></li>
+                            <li><a href="https://electric.svsdu.com/pos/create"><i class="fa fas fa-plus-circle"></i> <span>POS</span></a></li>
+                            <li><a href="https://electric.svsdu.com/sells/create?status=draft"><i class="fa fas fa-plus-circle"></i> <span>Add Draft</span></a></li>
+                            <li><a href="https://electric.svsdu.com/sells/drafts"><i class="fa fas fa-pen-square"></i> <span>List Drafts</span></a></li>
+                            <li><a href="https://electric.svsdu.com/sells/create?status=quotation"><i class="fa fas fa-plus-circle"></i> <span>Add Quotation</span></a></li>
+                            <li><a href="https://electric.svsdu.com/sells/quotations"><i class="fa fas fa-pen-square"></i> <span>List quotations</span></a></li>
+                            <li><a href="https://electric.svsdu.com/sell-return"><i class="fa fas fa-undo"></i> <span>List Sell Return</span></a></li>
+                            <li><a href="https://electric.svsdu.com/shipments"><i class="fa fas fa-truck"></i> <span>Shipments</span></a></li>
+                            <li><a href="https://electric.svsdu.com/discount"><i class="fa fas fa-percent"></i> <span>Discounts</span></a></li>
+                            <li><a href="https://electric.svsdu.com/sells/subscriptions"><i class="fa fas fa-recycle"></i> <span>Subscriptions</span></a></li>
+                            <li><a href="https://electric.svsdu.com/import-sales"><i class="fa fas fa-file-import"></i> <span>Import Sales</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+					<i class="fa fas fa-truck"></i> <span>Stock Transfers</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/stock-transfers"><i class="fa fas fa-list"></i> <span>List Stock Transfers</span></a></li>
+                            <li><a href="https://electric.svsdu.com/stock-transfers/create"><i class="fa fas fa-plus-circle"></i> <span>Add Stock Transfer</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+					<i class="fa fas fa-database"></i> <span>Stock Adjustment</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/stock-adjustments"><i class="fa fas fa-list"></i> <span>List Stock Adjustments</span></a></li>
+                            <li><a href="https://electric.svsdu.com/stock-adjustments/create"><i class="fa fas fa-plus-circle"></i> <span>Add Stock Adjustment</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+					<i class="fa fas fa-minus-circle"></i> <span>Expenses</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/expenses"><i class="fa fas fa-list"></i> <span>List Expenses</span></a></li>
+                            <li><a href="https://electric.svsdu.com/expenses/create"><i class="fa fas fa-plus-circle"></i> <span>Add Expense</span></a></li>
+                            <li><a href="https://electric.svsdu.com/expense-categories"><i class="fa fas fa-circle"></i> <span>Expense Categories</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+					<i class="fa fas fa-money-check-alt"></i> <span>Payment Accounts</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/account/account"><i class="fa fas fa-list"></i> <span>List Accounts</span></a></li>
+                            <li><a href="https://electric.svsdu.com/account/balance-sheet"><i class="fa fas fa-book"></i> <span>Balance Sheet</span></a></li>
+                            <li><a href="https://electric.svsdu.com/account/trial-balance"><i class="fa fas fa-balance-scale"></i> <span>Trial Balance</span></a></li>
+                            <li><a href="https://electric.svsdu.com/account/cash-flow"><i class="fa fas fa-exchange-alt"></i> <span>Cash Flow</span></a></li>
+                            <li><a href="https://electric.svsdu.com/account/payment-account-report"><i class="fa fas fa-file-alt"></i> <span>Payment Account Report</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="treeview" id="tour_step8">
+                        <a href="#">
+					<i class="fa fas fa-chart-bar"></i> <span>Reports</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/reports/profit-loss"><i class="fa fas fa-file-invoice-dollar"></i> <span>Profit / Loss Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/purchase-sell"><i class="fa fas fa-exchange-alt"></i> <span>Purchase & Sale</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/tax-report"><i class="fa fas fa-percent"></i> <span>Tax Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/customer-supplier"><i class="fa fas fa-address-book"></i> <span>Supplier & Customer Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/customer-group"><i class="fa fas fa-users"></i> <span>Customer Groups Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/stock-report"><i class="fa fas fa-hourglass-half"></i> <span>Stock Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/lot-report"><i class="fa fas fa-hourglass-half"></i> <span>Lot Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/stock-adjustment-report"><i class="fa fas fa-sliders-h"></i> <span>Stock Adjustment Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/trending-products"><i class="fa fas fa-chart-line"></i> <span>Trending Products</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/items-report"><i class="fa fas fa-tasks"></i> <span>Items Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/product-purchase-report"><i class="fa fas fa-arrow-circle-down"></i> <span>Product Purchase Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/product-sell-report"><i class="fa fas fa-arrow-circle-up"></i> <span>Product Sell Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/purchase-payment-report"><i class="fa fas fa-search-dollar"></i> <span>Purchase Payment Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/sell-payment-report"><i class="fa fas fa-search-dollar"></i> <span>Sell Payment Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/expense-report"><i class="fa fas fa-search-minus"></i> <span>Expense Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/register-report"><i class="fa fas fa-briefcase"></i> <span>Register Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/sales-representative-report"><i class="fa fas fa-user"></i> <span>Sales Representative Report</span></a></li>
+                            <li><a href="https://electric.svsdu.com/reports/activity-log"><i class="fa fas fa-user-secret"></i> <span>Activity Log</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="https://electric.svsdu.com/notification-templates"><i class="fa fas fa-envelope"></i> <span>Notification Templates</span></a></li>
+                    <li class="treeview" id="tour_step3">
+                        <a href="#">
+					<i class="fa fas fa-cog"></i> <span>Settings</span>
+                    <span class="pull-right-container">
+                      <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+			      </a>
+                        <ul class="treeview-menu">
+                            <li><a href="https://electric.svsdu.com/business/settings" id="tour_step2"><i class="fa fas fa-cogs"></i> <span>Business Settings</span></a></li>
+                            <li><a href="https://electric.svsdu.com/business-location"><i class="fa fas fa-map-marker"></i> <span>Business Locations</span></a></li>
+                            <li><a href="https://electric.svsdu.com/invoice-schemes"><i class="fa fas fa-file"></i> <span>Invoice Settings</span></a></li>
+                            <li><a href="https://electric.svsdu.com/barcodes"><i class="fa fas fa-barcode"></i> <span>Barcode Settings</span></a></li>
+                            <li><a href="https://electric.svsdu.com/printers"><i class="fa fas fa-share-alt"></i> <span>Receipt Printers</span></a></li>
+                            <li><a href="https://electric.svsdu.com/tax-rates"><i class="fa fas fa-bolt"></i> <span>Tax Rates</span></a></li>
+                            <li><a href="https://electric.svsdu.com/modules/modifiers"><i class="fa fas fa-pizza-slice"></i> <span>Modifiers</span></a></li>
+                            <li><a href="https://electric.svsdu.com/types-of-service"><i class="fa fas fa-user-circle"></i> <span>Types of service</span></a></li>
+
+                        </ul>
+                    </li>
+
+                </ul>
+
+
+                <!-- /.sidebar-menu -->
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class=" content-wrapper ">
+            <!-- empty div for vuejs -->
+            <div id="app">
+            </div>
+            <!-- Add currency related field-->
+            <input type="hidden" id="__code" value="BDT">
+            <input type="hidden" id="__symbol" value="৳">
+            <input type="hidden" id="__thousand" value=",">
+            <input type="hidden" id="__decimal" value=".">
+            <input type="hidden" id="__symbol_placement" value="before">
+            <input type="hidden" id="__precision" value="2">
+            <input type="hidden" id="__quantity_precision" value="0">
+            <!-- End of currency related field-->
+            <input type="hidden" id="view_export_buttons">
+
+            <!-- Content Header (Page header) -->
+            <section class="content-header content-header-custom">
+                <h1>Welcome softriple,
+                </h1>
+            </section>
+            <!-- Main content -->
+            <section class="content content-custom no-print">
+                <br>
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <select class="form-control select2" id="dashboard_location" name="dashboard_location"><option selected="selected" value="">Select location</option><option value="1">Ayat Super Shop &amp; Telecom Center Ltd (BL0001)</option><option value="3">Ayat Super Shop &amp; Telecom Center Ltd (BL0002)</option><option value="4">Ayat Super Shop &amp; Telecom Center Ltd (BL0003)</option></select>
+                    </div>
+                    <div class="col-md-8 col-xs-12">
+                        <div class="form-group pull-right">
+                            <div class="input-group">
+                                <button type="button" class="btn btn-primary" id="dashboard_date_filter">
+                              <span>
+                                <i class="fa fa-calendar"></i> Filter by date
+                              </span>
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <!-- /.col -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-custom">
+                        <div class="info-box info-box-new-style">
+                            <span class="info-box-icon bg-aqua"><i class="ion ion-ios-cart-outline"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Total Sales</span>
+                                <span class="info-box-number total_sell"><i class="fas fa-sync fa-spin fa-fw margin-bottom"></i></span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-custom">
+                        <div class="info-box info-box-new-style">
+                            <span class="info-box-icon bg-green">
+                            <i class="ion ion-ios-paper-outline"></i>
+                            
+                       </span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Net <i class="fa fa-info-circle text-info hover-q no-print " aria-hidden="true" 
+                    data-container="body" data-toggle="popover" data-placement="auto bottom" 
+                    data-content="NET = TOTAL SALES - INVOICE DUE - EXPENSE" data-html="true" data-trigger="hover"></i></span>
+                                <span class="info-box-number net"><i class="fas fa-sync fa-spin fa-fw margin-bottom"></i></span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-custom">
+                        <div class="info-box info-box-new-style">
+                            <span class="info-box-icon bg-yellow">
+                            <i class="ion ion-ios-paper-outline"></i>
+                            <i class="fa fa-exclamation"></i>
+                       </span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Invoice due</span>
+                                <span class="info-box-number invoice_due"><i class="fas fa-sync fa-spin fa-fw margin-bottom"></i></span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-custom">
+                        <div class="info-box info-box-new-style">
+                            <span class="info-box-icon bg-red text-white">
+                            <i class="fas fa-exchange-alt"></i>
+                       </span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Total Sell Return</span>
+                                <span class="info-box-number total_sell_return"><i class="fas fa-sync fa-spin fa-fw margin-bottom"></i></span>
+                            </div>
+                            <!-- /.info-box-content -->
+                            <p class="mb-0 text-muted fs-10 mt-5">Total Sell Return: <span class="total_sr"></span><br> Total Sell Return Paid<span class="total_srp"></span></p>
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-custom">
+                        <div class="info-box info-box-new-style">
+                            <span class="info-box-icon bg-aqua"><i class="ion ion-cash"></i></span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Total purchase</span>
+                                <span class="info-box-number total_purchase"><i class="fas fa-sync fa-spin fa-fw margin-bottom"></i></span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <!-- /.col -->
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-custom">
+                        <div class="info-box info-box-new-style">
+                            <span class="info-box-icon bg-yellow">
+                            <i class="fa fa-dollar"></i>
+                            <i class="fa fa-exclamation"></i>
+                        </span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Purchase due</span>
+                                <span class="info-box-number purchase_due"><i class="fas fa-sync fa-spin fa-fw margin-bottom"></i></span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-custom">
+                        <div class="info-box info-box-new-style">
+                            <span class="info-box-icon bg-red text-white">
+                            <i class="fas fa-undo-alt"></i>
+                       </span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">Total Purchase Return</span>
+                                <span class="info-box-number total_purchase_return"><i class="fas fa-sync fa-spin fa-fw margin-bottom"></i></span>
+                            </div>
+                            <!-- /.info-box-content -->
+                            <p class="mb-0 text-muted fs-10 mt-5">Total Purchase Return: <span class="total_pr"></span><br> Total Purchase Return Paid<span class="total_prp"></span></p>
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+
+                    <!-- expense -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 col-custom">
+                        <div class="info-box info-box-new-style">
+                            <span class="info-box-icon bg-red">
+                          <i class="fas fa-minus-circle"></i>
+                        </span>
+
+                            <div class="info-box-content">
+                                <span class="info-box-text">
+                            Expense
+                          </span>
+                                <span class="info-box-number total_expense"><i class="fas fa-sync fa-spin fa-fw margin-bottom"></i></span>
+                            </div>
+                            <!-- /.info-box-content -->
+                        </div>
+                        <!-- /.info-box -->
+                    </div>
+                </div>
+
+                <!-- end is_admin check -->
+                <!-- sales chart start -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box box-primary">
+                            <div class="box-header">
+
+                                <h3 class="box-title">Sales Last 30 Days</h3>
+
+
+                            </div>
+
+                            <div class="box-body">
+                                <div id="mewfkurichxnqoyaljbtzsgpv" style='height: 400px !important;'>
+                                </div>
+                                <div id="mewfkurichxnqoyaljbtzsgpv_loader" style="
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    align-items: center;
+    height: 400px;
+    
+">
+                                    <svg width="50" height="50" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient x1="8.042%" y1="0%" x2="65.682%" y2="23.865%" id="a">
+                <stop stop-color="#22292F" stop-opacity="0" offset="0%"/>
+                <stop stop-color="#22292F" stop-opacity=".631" offset="63.146%"/>
+                <stop stop-color="#22292F" offset="100%"/>
+            </linearGradient>
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+            <g transform="translate(1 1)">
+                <path d="M36 18c0-9.94-8.06-18-18-18" id="Oval-2" stroke="url(#a)" stroke-width="2">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </path>
+                <circle fill="#22292F" cx="36" cy="18" r="1">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </circle>
+            </g>
+        </g>
+    </svg>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box box-primary">
+                            <div class="box-header">
+
+                                <h3 class="box-title">Sales Current Financial Year</h3>
+
+
+                            </div>
+
+                            <div class="box-body">
+                                <div id="nxgrhiyjpvqkcuosdtwlazfme" style='height: 400px !important;'>
+                                </div>
+                                <div id="nxgrhiyjpvqkcuosdtwlazfme_loader" style="
+    display: flex;
+    justify-content: center;
+    opacity: 1;
+    align-items: center;
+    height: 400px;
+    
+">
+                                    <svg width="50" height="50" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient x1="8.042%" y1="0%" x2="65.682%" y2="23.865%" id="a">
+                <stop stop-color="#22292F" stop-opacity="0" offset="0%"/>
+                <stop stop-color="#22292F" stop-opacity=".631" offset="63.146%"/>
+                <stop stop-color="#22292F" offset="100%"/>
+            </linearGradient>
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+            <g transform="translate(1 1)">
+                <path d="M36 18c0-9.94-8.06-18-18-18" id="Oval-2" stroke="url(#a)" stroke-width="2">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </path>
+                <circle fill="#22292F" cx="36" cy="18" r="1">
+                    <animateTransform
+                        attributeName="transform"
+                        type="rotate"
+                        from="0 18 18"
+                        to="360 18 18"
+                        dur="0.9s"
+                        repeatCount="indefinite" />
+                </circle>
+            </g>
+        </g>
+    </svg>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+                <!-- sales chart end -->
+                <!-- products less than alert quntity -->
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <i class="fa fa-exclamation-triangle text-yellow" aria-hidden="true"></i>
+                                <h3 class="box-title">Sales Payment Due <i class="fa fa-info-circle text-info hover-q no-print " aria-hidden="true" data-container="body" data-toggle="popover" data-placement="auto bottom" data-content="Pending payment for Sales. <br/><small class='text-muted'>Based on invoice pay term. <br/> Showing payments to be received in 7 days or less.</small>"
+                                        data-html="true" data-trigger="hover"></i></h3>
+
+
+                            </div>
+
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-md-offset-6 mb-10">
+                                        <select class="form-control select2" id="sales_payment_dues_location" name="sales_payment_dues_location"><option selected="selected" value="">Select location</option><option value="1">Ayat Super Shop &amp; Telecom Center Ltd (BL0001)</option><option value="3">Ayat Super Shop &amp; Telecom Center Ltd (BL0002)</option><option value="4">Ayat Super Shop &amp; Telecom Center Ltd (BL0003)</option></select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <table class="table table-bordered table-striped" id="sales_payment_dues_table" style="width: 100%;">
+                                            <thead>
+                                                <tr>
+                                                    <th>Customer</th>
+                                                    <th>Invoice No.</th>
+                                                    <th>Due Amount</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <i class="fa fa-exclamation-triangle text-yellow" aria-hidden="true"></i>
+                                <h3 class="box-title">Purchase Payment Due <i class="fa fa-info-circle text-info hover-q no-print " aria-hidden="true" data-container="body" data-toggle="popover" data-placement="auto bottom" data-content="Pending payment for purchases. <br/><small class='text-muted'>Based on supplier's pay term. <br/> Showing payments to be paid in 7 days or less.</small>"
+                                        data-html="true" data-trigger="hover"></i></h3>
+
+
+                            </div>
+
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-md-offset-6 mb-10">
+                                        <select class="form-control select2" id="purchase_payment_dues_location" name="purchase_payment_dues_location"><option selected="selected" value="">Select location</option><option value="1">Ayat Super Shop &amp; Telecom Center Ltd (BL0001)</option><option value="3">Ayat Super Shop &amp; Telecom Center Ltd (BL0002)</option><option value="4">Ayat Super Shop &amp; Telecom Center Ltd (BL0003)</option></select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <table class="table table-bordered table-striped" id="purchase_payment_dues_table" style="width: 100%;">
+                                            <thead>
+                                                <tr>
+                                                    <th>Supplier</th>
+                                                    <th>Reference No</th>
+                                                    <th>Due Amount</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class=" col-sm-12 ">
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <i class="fa fa-exclamation-triangle text-yellow" aria-hidden="true"></i>
+                                <h3 class="box-title">Product Stock Alert <i class="fa fa-info-circle text-info hover-q no-print " aria-hidden="true" data-container="body" data-toggle="popover" data-placement="auto bottom" data-content="Products with low stock.<br/><small class='text-muted'>Based on product alert quantity set in add product screen.<br> Purchase this products before stock ends.</small>"
+                                        data-html="true" data-trigger="hover"></i></h3>
+
+
+                            </div>
+
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6 col-md-offset-6 mb-10">
+                                        <select class="form-control select2" id="stock_alert_location" name="stock_alert_location"><option selected="selected" value="">Select location</option><option value="1">Ayat Super Shop &amp; Telecom Center Ltd (BL0001)</option><option value="3">Ayat Super Shop &amp; Telecom Center Ltd (BL0002)</option><option value="4">Ayat Super Shop &amp; Telecom Center Ltd (BL0003)</option></select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <table class="table table-bordered table-striped" id="stock_alert_table" style="width: 100%;">
+                                            <thead>
+                                                <tr>
+                                                    <th>Product</th>
+                                                    <th>Location</th>
+                                                    <th>Current stock</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <i class="fas fa-list-alt text-yellow fa-lg" aria-hidden="true"></i>
+                                <h3 class="box-title">Sales Order</h3>
+
+
+                            </div>
+
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-md-offset-8 mb-10">
+                                        <select class="form-control select2" id="so_location" name="so_location"><option selected="selected" value="">Select location</option><option value="1">Ayat Super Shop &amp; Telecom Center Ltd (BL0001)</option><option value="3">Ayat Super Shop &amp; Telecom Center Ltd (BL0002)</option><option value="4">Ayat Super Shop &amp; Telecom Center Ltd (BL0003)</option></select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped ajax_view" id="sales_order_table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Action</th>
+                                                        <th>Date</th>
+                                                        <th>Order No.</th>
+                                                        <th>Customer name</th>
+                                                        <th>Contact Number</th>
+                                                        <th>Location</th>
+                                                        <th>Status</th>
+                                                        <th>Shipping Status</th>
+                                                        <th>Quantity Remaining</th>
+                                                        <th>Added By</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <i class="fas fa-list-alt text-yellow fa-lg" aria-hidden="true"></i>
+                                <h3 class="box-title">Purchase Requisition</h3>
+
+
+                            </div>
+
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-md-offset-8 mb-10">
+                                        <select class="form-control select2" id="pr_location" name="pr_location"><option selected="selected" value="">Select location</option><option value="1">Ayat Super Shop &amp; Telecom Center Ltd (BL0001)</option><option value="3">Ayat Super Shop &amp; Telecom Center Ltd (BL0002)</option><option value="4">Ayat Super Shop &amp; Telecom Center Ltd (BL0003)</option></select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped ajax_view" id="purchase_requisition_table" style="width: 100%;">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Action</th>
+                                                        <th>Date</th>
+                                                        <th>Reference No</th>
+                                                        <th>Location</th>
+                                                        <th>Status</th>
+                                                        <th>Required by date</th>
+                                                        <th>Added By</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="box box-warning">
+                            <div class="box-header">
+                                <i class="fas fa-list-alt text-yellow fa-lg" aria-hidden="true"></i>
+                                <h3 class="box-title">Purchase Order</h3>
+
+
+                            </div>
+
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 col-md-offset-8 mb-10">
+                                        <select class="form-control select2" id="po_location" name="po_location"><option selected="selected" value="">Select location</option><option value="1">Ayat Super Shop &amp; Telecom Center Ltd (BL0001)</option><option value="3">Ayat Super Shop &amp; Telecom Center Ltd (BL0002)</option><option value="4">Ayat Super Shop &amp; Telecom Center Ltd (BL0003)</option></select>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered table-striped ajax_view" id="purchase_order_table" style="width: 100%;">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Action</th>
+                                                        <th>Date</th>
+                                                        <th>Reference No</th>
+                                                        <th>Location</th>
+                                                        <th>Supplier</th>
+                                                        <th>Status</th>
+                                                        <th>Quantity Remaining</th>
+                                                        <th>Added By</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.box-body -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box box-warning">
+                    <div class="box-header">
+                        <i class="fas fa-list-alt text-yellow fa-lg" aria-hidden="true"></i>
+                        <h3 class="box-title">Pending Shipments</h3>
+
+
+                    </div>
+
+                    <div class="box-body">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 col-md-offset-8 mb-10">
+                                <select class="form-control select2" id="pending_shipments_location" name="pending_shipments_location"><option selected="selected" value="">Select location</option><option value="1">Ayat Super Shop &amp; Telecom Center Ltd (BL0001)</option><option value="3">Ayat Super Shop &amp; Telecom Center Ltd (BL0002)</option><option value="4">Ayat Super Shop &amp; Telecom Center Ltd (BL0003)</option></select>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped ajax_view" id="shipments_table">
+                                        <thead>
+                                            <tr>
+                                                <th>Action</th>
+                                                <th>Date</th>
+                                                <th>Invoice No.</th>
+                                                <th>Customer name</th>
+                                                <th>Contact Number</th>
+                                                <th>Location</th>
+                                                <th>Shipping Status</th>
+                                                <th>Payment Status</th>
+                                                <th>Service staff</th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-body -->
+                </div>
+
+
+                <!-- can('dashboard.data') end -->
+            </section>
+            <!-- /.content -->
+            <div class="modal fade payment_modal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+            </div>
+            <div class="modal fade edit_pso_status_modal" tabindex="-1" role="dialog"></div>
+            <div class="modal fade edit_payment_modal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+            </div>
+
+            <div class='scrolltop no-print'>
+                <div class='scroll icon'><i class="fas fa-angle-up"></i></div>
+            </div>
+
+
+            <!-- This will be printed -->
+            <section class="invoice print_section" id="receipt_section">
+            </section>
+
+        </div>
+        <div class="modal fade" id="todays_profit_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Today's profit</h4>
+                    </div>
+                    <div class="modal-body">
+                        <input type="hidden" id="modal_today" value="2024-03-13">
+                        <div class="row">
+                            <div id="todays_profit">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- Main Footer -->
+        <footer class="main-footer no-print">
+            <!-- To the right -->
+            <!-- <div class="pull-right hidden-xs">
+      Anything you want
+    </div> -->
+            <!-- Default to the left -->
+            <small>
+    	Hub4Source IT - V5.1.1 | Copyright &copy; 2024 All rights reserved.
+    </small>
+            <div class="btn-group pull-right">
+                <button type="button" class="btn btn-success btn-xs toggle-font-size" data-size="s"><i class="fa fa-font"></i> <i class="fa fa-minus"></i></button>
+                <button type="button" class="btn btn-success btn-xs toggle-font-size" data-size="m"> <i class="fa fa-font"></i> </button>
+                <button type="button" class="btn btn-success btn-xs toggle-font-size" data-size="l"><i class="fa fa-font"></i> <i class="fa fa-plus"></i></button>
+                <button type="button" class="btn btn-success btn-xs toggle-font-size" data-size="xl"><i class="fa fa-font"></i> <i class="fa fa-plus"></i><i class="fa fa-plus"></i></button>
+            </div>
+        </footer>
+        <audio id="success-audio">
+              <source src="https://electric.svsdu.com/audio/success.ogg?v=511" type="audio/ogg">
+              <source src="https://electric.svsdu.com/audio/success.mp3?v=511" type="audio/mpeg">
+            </audio>
+        <audio id="error-audio">
+              <source src="https://electric.svsdu.com/audio/error.ogg?v=511" type="audio/ogg">
+              <source src="https://electric.svsdu.com/audio/error.mp3?v=511" type="audio/mpeg">
+            </audio>
+        <audio id="warning-audio">
+              <source src="https://electric.svsdu.com/audio/warning.ogg?v=511" type="audio/ogg">
+              <source src="https://electric.svsdu.com/audio/warning.mp3?v=511" type="audio/mpeg">
+            </audio>
+    </div>
+
+
+    <script type="text/javascript">
+        base_path = "https://electric.svsdu.com";
+        //used for push notification
+        APP = {};
+        APP.PUSHER_APP_KEY = '';
+        APP.PUSHER_APP_CLUSTER = '';
+        APP.INVOICE_SCHEME_SEPARATOR = '-';
+        //variable from app service provider
+        APP.PUSHER_ENABLED = '';
+        APP.USER_ID = "1";
+    </script>
+
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js?v=$asset_v"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js?v=$asset_v"></script>
+<![endif]-->
+    <script src="https://electric.svsdu.com/js/vendor.js?v=511"></script>
+
+    <script src="https://electric.svsdu.com/js/lang/en.js?v=511"></script>
+
+    <script>
+        Dropzone.autoDiscover = false;
+        moment.tz.setDefault('Asia/Dhaka');
+        $(document).ready(function() {
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+
+            $.fn.dataTable.ext.errMode = 'throw';
+        });
+
+        var financial_year = {
+            start: moment('2024-01-01'),
+            end: moment('2024-12-31'),
+        }
+
+        var datepicker_date_format = "mm/dd/yyyy";
+        var moment_date_format = "MM/DD/YYYY";
+        var moment_time_format = "hh:mm A";
+
+        var app_locale = "en";
+
+        var non_utf8_languages = [
+            "ar",
+            "hi",
+            "ps",
+        ];
+
+        var __default_datatable_page_entries = "25";
+
+        var __new_notification_count_interval = "60000";
+    </script>
+
+    <script src="https://electric.svsdu.com/js/lang/en.js?v=511"></script>
+
+    <script src="https://electric.svsdu.com/js/functions.js?v=511"></script>
+    <script src="https://electric.svsdu.com/js/common.js?v=511"></script>
+    <script src="https://electric.svsdu.com/js/app.js?v=511"></script>
+    <script src="https://electric.svsdu.com/js/help-tour.js?v=511"></script>
+    <script src="https://electric.svsdu.com/js/documents_and_note.js?v=511"></script>
+
+    <!-- TODO -->
+
+    <script src="https://electric.svsdu.com/js/home.js?v=511"></script>
+    <script src="https://electric.svsdu.com/js/payment.js?v=511"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(document).on('click', '.edit-so-status', function() {
+                var url = $(this).data('href');
+                $.ajax({
+                    method: "GET",
+                    dataType: "html",
+                    url: url,
+                    success: function(result) {
+                        $('.edit_pso_status_modal').html(result).modal("show");
+                    }
+                });
+            });
+
+            $(document).on('submit', 'form#update_so_status_form', function(e) {
+                e.preventDefault();
+                var url = $('form#update_so_status_form').attr('action');
+                var method = $('form#update_so_status_form').attr('method');
+                var data = $('form#update_so_status_form').serialize();
+                var ladda = Ladda.create(document.querySelector('.ladda-button'));
+                ladda.start();
+                $.ajax({
+                    method: method,
+                    dataType: "json",
+                    url: url,
+                    data: data,
+                    success: function(result) {
+                        ladda.stop();
+                        if (result.success) {
+                            $('.edit_pso_status_modal').modal("hide");
+                            toastr.success(result.msg);
+                            if (typeof(sell_table) != 'undefined') {
+                                sell_table.ajax.reload();
+                            }
+                            if (typeof(sales_order_table) != 'undefined') {
+                                sales_order_table.ajax.reload();
+                            }
+                        } else {
+                            toastr.error(result.msg);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(document).on('click', '.edit-po-status', function() {
+                var url = $(this).data('href');
+                $.ajax({
+                    method: "GET",
+                    dataType: "html",
+                    url: url,
+                    success: function(result) {
+                        $('.edit_pso_status_modal').html(result).modal("show");
+                    }
+                });
+            });
+
+            $(document).on('submit', 'form#update_po_status_form', function(e) {
+                e.preventDefault();
+                var url = $('form#update_po_status_form').attr('action');
+                var method = $('form#update_po_status_form').attr('method');
+                var data = $('form#update_po_status_form').serialize();
+                var ladda = Ladda.create(document.querySelector('.ladda-button'));
+                ladda.start();
+                $.ajax({
+                    method: method,
+                    dataType: "json",
+                    url: url,
+                    data: data,
+                    success: function(result) {
+                        ladda.stop();
+                        if (result.success) {
+                            $('.edit_pso_status_modal').modal("hide");
+                            toastr.success(result.msg);
+                            if (typeof(purchase_order_table) != 'undefined') {
+                                purchase_order_table.ajax.reload();
+                            }
+                        } else {
+                            toastr.error(result.msg);
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        function mewfkurichxnqoyaljbtzsgpv_create(data) {
+            mewfkurichxnqoyaljbtzsgpv_rendered = true;
+            document.getElementById("mewfkurichxnqoyaljbtzsgpv_loader").style.display = 'none';
+            window.mewfkurichxnqoyaljbtzsgpv = new Highcharts.Chart("mewfkurichxnqoyaljbtzsgpv", {
+                series: data,
+                "credits": {
+                    "enabled": false
+                },
+                "title": {
+                    "text": null
+                },
+                "yAxis": {
+                    "title": {
+                        "text": "Total Sales (BDT)"
+                    }
+                },
+                "legend": {
+                    "align": "right",
+                    "verticalAlign": "top",
+                    "floating": true,
+                    "layout": "vertical",
+                    "padding": 20
+                },
+                "xAxis": {
+                    "categories": ["13 Feb 2024", "14 Feb 2024", "15 Feb 2024", "16 Feb 2024", "17 Feb 2024", "18 Feb 2024", "19 Feb 2024", "20 Feb 2024", "21 Feb 2024", "22 Feb 2024", "23 Feb 2024", "24 Feb 2024", "25 Feb 2024", "26 Feb 2024", "27 Feb 2024", "28 Feb 2024", "29 Feb 2024", "1 Mar 2024", "2 Mar 2024", "3 Mar 2024", "4 Mar 2024", "5 Mar 2024", "6 Mar 2024", "7 Mar 2024", "8 Mar 2024", "9 Mar 2024", "10 Mar 2024", "11 Mar 2024", "12 Mar 2024", "13 Mar 2024"]
+                }
+            });
+        }
+        let mewfkurichxnqoyaljbtzsgpv_rendered = false;
+        let mewfkurichxnqoyaljbtzsgpv_load = function() {
+            if (document.getElementById("mewfkurichxnqoyaljbtzsgpv") && !mewfkurichxnqoyaljbtzsgpv_rendered) {
+                mewfkurichxnqoyaljbtzsgpv_create([{
+                    "data": [0, 11150, 0, 0, 0, 7943.58, 17253.58, 72849.14, 3203.58, 0, 0, 0, 11053.58, 3350, 1000, 250, 0, 0, 0, 0, 0, 0, 250, 0, 0, 0, 0, 0, 0, 21790],
+                    "name": "Ayat Super Shop & Telecom Center Ltd (BL0001)",
+                    "type": "line"
+                }, {
+                    "data": [0, 0, 0, 0, 0, 0, 0, 250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    "name": "Ayat Super Shop & Telecom Center Ltd (BL0002)",
+                    "type": "line"
+                }, {
+                    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    "name": "Ayat Super Shop & Telecom Center Ltd (BL0003)",
+                    "type": "line"
+                }, {
+                    "data": [0, 11150, 0, 0, 0, 7943.58, 17253.58, 73099.14, 3203.58, 0, 0, 0, 11053.58, 3350, 1000, 250, 0, 0, 0, 0, 0, 0, 250, 0, 0, 0, 0, 0, 0, 21790],
+                    "name": "All locations",
+                    "type": "line"
+                }])
+            }
+        };
+        window.addEventListener("load", mewfkurichxnqoyaljbtzsgpv_load);
+        document.addEventListener("turbolinks:load", mewfkurichxnqoyaljbtzsgpv_load);
+    </script>
+
+    <script type="text/javascript">
+        function nxgrhiyjpvqkcuosdtwlazfme_create(data) {
+            nxgrhiyjpvqkcuosdtwlazfme_rendered = true;
+            document.getElementById("nxgrhiyjpvqkcuosdtwlazfme_loader").style.display = 'none';
+            window.nxgrhiyjpvqkcuosdtwlazfme = new Highcharts.Chart("nxgrhiyjpvqkcuosdtwlazfme", {
+                series: data,
+                "credits": {
+                    "enabled": false
+                },
+                "title": {
+                    "text": null
+                },
+                "yAxis": {
+                    "title": {
+                        "text": "Total Sales (BDT)"
+                    }
+                },
+                "legend": {
+                    "align": "right",
+                    "verticalAlign": "top",
+                    "floating": true,
+                    "layout": "vertical",
+                    "padding": 20
+                },
+                "xAxis": {
+                    "categories": ["Jan-2024", "Feb-2024", "Mar-2024", "Apr-2024", "May-2024", "Jun-2024", "Jul-2024", "Aug-2024", "Sep-2024", "Oct-2024", "Nov-2024", "Dec-2024"]
+                }
+            });
+        }
+        let nxgrhiyjpvqkcuosdtwlazfme_rendered = false;
+        let nxgrhiyjpvqkcuosdtwlazfme_load = function() {
+            if (document.getElementById("nxgrhiyjpvqkcuosdtwlazfme") && !nxgrhiyjpvqkcuosdtwlazfme_rendered) {
+                nxgrhiyjpvqkcuosdtwlazfme_create([{
+                    "data": [35053.56, 128053.46, 22040, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    "name": "Ayat Super Shop & Telecom Center Ltd (BL0001)",
+                    "type": "line"
+                }, {
+                    "data": [4690.38, 250, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    "name": "Ayat Super Shop & Telecom Center Ltd (BL0002)",
+                    "type": "line"
+                }, {
+                    "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    "name": "Ayat Super Shop & Telecom Center Ltd (BL0003)",
+                    "type": "line"
+                }, {
+                    "data": [39743.939999999995, 128303.46, 22040, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+                    "name": "All locations",
+                    "type": "line"
+                }])
+            }
+        };
+        window.addEventListener("load", nxgrhiyjpvqkcuosdtwlazfme_load);
+        document.addEventListener("turbolinks:load", nxgrhiyjpvqkcuosdtwlazfme_load);
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            sales_order_table = $('#sales_order_table').DataTable({
+                processing: true,
+                serverSide: true,
+                scrollY: "75vh",
+                scrollX: true,
+                scrollCollapse: true,
+                aaSorting: [
+                    [1, 'desc']
+                ],
+                "ajax": {
+                    "url": 'https://electric.svsdu.com/sells?sale_type=sales_order',
+                    "data": function(d) {
+                        d.for_dashboard_sales_order = true;
+
+                        if ($('#so_location').length > 0) {
+                            d.location_id = $('#so_location').val();
+                        }
+                    }
+                },
+                columnDefs: [{
+                    "targets": 7,
+                    "orderable": false,
+                    "searchable": false
+                }],
+                columns: [{
+                        data: 'action',
+                        name: 'action'
+                    },
+                    {
+                        data: 'transaction_date',
+                        name: 'transaction_date'
+                    },
+                    {
+                        data: 'invoice_no',
+                        name: 'invoice_no'
+                    },
+                    {
+                        data: 'conatct_name',
+                        name: 'conatct_name'
+                    },
+                    {
+                        data: 'mobile',
+                        name: 'contacts.mobile'
+                    },
+                    {
+                        data: 'business_location',
+                        name: 'bl.name'
+                    },
+                    {
+                        data: 'status',
+                        name: 'status'
+                    },
+                    {
+                        data: 'shipping_status',
+                        name: 'shipping_status'
+                    },
+                    {
+                        data: 'so_qty_remaining',
+                        name: 'so_qty_remaining',
+                        "searchable": false
+                    },
+                    {
+                        data: 'added_by',
+                        name: 'u.first_name'
+                    },
+                ]
+            });
+
+
+            $('#so_location').change(function() {
+                sales_order_table.ajax.reload();
+            });
+            //Purchase table
+            purchase_order_table = $('#purchase_order_table').DataTable({
+                processing: true,
+                serverSide: true,
+                aaSorting: [
+                    [1, 'desc']
+                ],
+                scrollY: "75vh",
+                scrollX: true,
+                scrollCollapse: true,
+                ajax: {
+                    url: 'https://electric.svsdu.com/purchase-order',
+                    data: function(d) {
+                        d.from_dashboard = true;
+
+                        if ($('#po_location').length > 0) {
+                            d.location_id = $('#po_location').val();
+                        }
+                    },
+                },
+                columns: [{
+                        data: 'action',
+                        name: 'action',
+                        orderable: false,
+                        searchable: false
+                    },
+                    {
+                        data: 'transaction_date',
+                        name: 'transaction_date'
+                    },
+                    {
+                        data: 'ref_no',
+                        name: 'ref_no'
+                    },
+                    {
+                        data: 'location_name',
+                        name: 'BS.name'
+                    },
+                    {
+                        data: 'name',
+                        name: 'contacts.name'
+                    },
+                    {
+                        data: 'status',
+                        name: 'transactions.status'
+                    },
+                    {
+                        data: 'po_qty_remaining',
+                        name: 'po_qty_remaining',
+                        "searchable": false
+                    },
+                    {
+                        data: 'added_by',
+                        name: 'u.first_name'
+                    }
+                ]
+            })
+
+            $('#po_location').change(function() {
+                purchase_order_table.ajax.reload();
+            });
+
+            //Purchase table
+            purchase_requisition_table = $('#purchase_requisition_table').DataTable({
+                processing: true,
+                serverSide: true,
+                aaSorting: [
+                    [1, 'desc']
+                ],
+                scrollY: "75vh",
+                scrollX: true,
+                scrollCollapse: true,
+                ajax: {
+                    url: 'https://electric.svsdu.com/purchase-requisition',
+                    data: function(d) {
+                        d.from_dashboard = true;
+
+                        if ($('#pr_location').length > 0) {
+                            d.location_id = $('#pr_location').val();
+                        }
+                    },
+                },
+                columns: [{
+                        data: 'action',
+                        name: 'action',
+                        orderable: false,
+                        searchable: false
+                    },
+                    {
+                        data: 'transaction_date',
+                        name: 'transaction_date'
+                    },
+                    {
+                        data: 'ref_no',
+                        name: 'ref_no'
+                    },
+                    {
+                        data: 'location_name',
+                        name: 'BS.name'
+                    },
+                    {
+                        data: 'status',
+                        name: 'status'
+                    },
+                    {
+                        data: 'delivery_date',
+                        name: 'delivery_date'
+                    },
+                    {
+                        data: 'added_by',
+                        name: 'u.first_name'
+                    },
+                ]
+            })
+
+            $('#pr_location').change(function() {
+                purchase_requisition_table.ajax.reload();
+            });
+
+            $(document).on('click', 'a.delete-purchase-requisition', function(e) {
+                e.preventDefault();
+                swal({
+                    title: LANG.sure,
+                    icon: 'warning',
+                    buttons: true,
+                    dangerMode: true,
+                }).then(willDelete => {
+                    if (willDelete) {
+                        var href = $(this).attr('href');
+                        $.ajax({
+                            method: 'DELETE',
+                            url: href,
+                            dataType: 'json',
+                            success: function(result) {
+                                if (result.success == true) {
+                                    toastr.success(result.msg);
+                                    purchase_requisition_table.ajax.reload();
+                                } else {
+                                    toastr.error(result.msg);
+                                }
+                            },
+                        });
+                    }
+                });
+            });
+
+            sell_table = $('#shipments_table').DataTable({
+                processing: true,
+                serverSide: true,
+                aaSorting: [
+                    [1, 'desc']
+                ],
+                scrollY: "75vh",
+                scrollX: true,
+                scrollCollapse: true,
+                "ajax": {
+                    "url": 'https://electric.svsdu.com/sells',
+                    "data": function(d) {
+                        d.only_pending_shipments = true;
+                        if ($('#pending_shipments_location').length > 0) {
+                            d.location_id = $('#pending_shipments_location').val();
+                        }
+                    }
+                },
+                columns: [{
+                        data: 'action',
+                        name: 'action',
+                        searchable: false,
+                        orderable: false
+                    },
+                    {
+                        data: 'transaction_date',
+                        name: 'transaction_date'
+                    },
+                    {
+                        data: 'invoice_no',
+                        name: 'invoice_no'
+                    },
+                    {
+                        data: 'conatct_name',
+                        name: 'conatct_name'
+                    },
+                    {
+                        data: 'mobile',
+                        name: 'contacts.mobile'
+                    },
+                    {
+                        data: 'business_location',
+                        name: 'bl.name'
+                    },
+                    {
+                        data: 'shipping_status',
+                        name: 'shipping_status'
+                    },
+                    {
+                        data: 'payment_status',
+                        name: 'payment_status'
+                    },
+                    {
+                        data: 'waiter',
+                        name: 'ss.first_name',
+                        visible: false
+                    }
+                ],
+                "fnDrawCallback": function(oSettings) {
+                    __currency_convert_recursively($('#sell_table'));
+                },
+                createdRow: function(row, data, dataIndex) {
+                    $(row).find('td:eq(4)').attr('class', 'clickable_td');
+                }
+            });
+
+            $('#pending_shipments_location').change(function() {
+                sell_table.ajax.reload();
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var locale = "en";
+            var isRTL = false;
+            $('#calendar').fullCalendar('option', {
+                locale: locale,
+                isRTL: isRTL
+            });
+        });
+    </script>
+    <div class="modal fade view_modal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel"></div>
+
+</body>
+
+</html>
