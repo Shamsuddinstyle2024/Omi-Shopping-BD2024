@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form with LocalStorage + Notification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      padding: 20px;
+    }
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+      max-width: 400px;
+      margin: auto;
+    }
+    input, button {
+      padding: 10px;
+      margin: 5px 0;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    button {
+      background: #007BFF;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    table {
+      margin-top: 20px;
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <form id="myForm">
+    <h2>Save Data</h2>
+    <input type="text" id="name" placeholder="Enter your name" required>
+    <input type="email" id="email" placeholder="Enter your email" required>
+    <button type="submit">Submit</button>
+  </form>
+
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+    // নোটিফিকেশন পারমিশন চাই
+    document.addEventListener("DOMContentLoaded", () => {
+      if (Notification.permission !== "granted") {
+        Notification.requestPermission();
+      }
+      showData(); // লোড হলে আগের ডেটা দেখাও
+    });
+
+    document.getElementById("myForm").addEventListener("submit", function(e){
+      e.preventDefault();
+
+      let name = document.getElementById("name").value;
+      let email = document.getElementById("email").value;
+
+      // LocalStorage থেকে ডেটা আনা
+      let data = JSON.parse(localStorage.getItem("formData")) || [];
+      data.push({name: name, email: email});
+      localStorage.setItem("formData", JSON.stringify(data));
+
+      // Notification
+      if (Notification.permission === "granted") {
+        new Notification("Form Submitted!", {
+          body: `Saved ${name} (${email}) to LocalStorage`,
+          icon: "https://cdn-icons-png.flaticon.com/512/992/992700.png"
+        });
+      } else {
+        alert("Notification permission not granted!");
+      }
+
+      // ফর্ম ক্লিয়ার
+      this.reset();
+
+      // টেবিলে ডেটা দেখাও
+      showData();
+    });
+
+    function showData() {
+      let tbody = document.querySelector("#dataTable tbody");
+      tbody.innerHTML = "";
+      let data = JSON.parse(localStorage.getItem("formData")) || [];
+      data.forEach(item => {
+        let row = `<tr><td>${item.name}</td><td>${item.email}</td></tr>`;
+        tbody.innerHTML += row;
+      });
+    }
+  </script>
+</body>
+</html>
